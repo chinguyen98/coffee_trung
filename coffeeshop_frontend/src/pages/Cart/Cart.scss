@@ -1,0 +1,113 @@
+.cart {
+  padding: 5rem 0;
+  h5 {
+    color: #fff;
+  }
+  .table {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    thead {
+      tr {
+        th {
+          border-top: 0px;
+          font-size: 16px;
+          font-weight: bold;
+          border-bottom: 0px;
+        }
+        td {
+          padding-top: 30px;
+          padding-bottom: 30px;
+          vertical-align: middle;
+          align-self: center;
+        }
+      }
+    }
+  }
+}
+.cart {
+  .table {
+    tbody {
+      tr {
+        h6 {
+          font-size: 16px;
+          color: #fff;
+          margin-bottom: 0px;
+        }
+        td {
+          .main {
+            .d-flex {
+              padding-right: 30px;
+              img {
+                border: 1px solid #000;
+                border-radius: 3px;
+                width: 145px;
+                height: 98px;
+              }
+            }
+            .des {
+              vertical-align: middle;
+              align-self: center;
+              p {
+                margin-bottom: 0px;
+              }
+            }
+          }
+          .qty {
+            color: #fff;
+          }
+          .btn-group {
+            position: relative;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}
+.checkout {
+  ul {
+    border: 2px solid #000;
+    background: #000;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 16px;
+    padding-bottom: 20px;
+  }
+  li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  .subtotal {
+    font-weight: bold;
+    text-transform: capitalize;
+    border-bottom: 1px solid #000;
+    padding-bottom: 14px;
+    h3 {
+      color: red;
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  .proceed-btn {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background: #9a3012;
+    text-transform: uppercase;
+    padding: 15px 25px 14px 25px;
+    display: block;
+    text-align: center;
+  }
+}

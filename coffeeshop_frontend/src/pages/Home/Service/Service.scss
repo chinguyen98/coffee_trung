@@ -1,0 +1,26 @@
+.service_home {
+  padding: 2rem 0;
+  border-bottom: 1px solid #ccc;
+  .icon_service {
+    float: left;
+    font-size: 30px;
+    font-weight: 600;
+    color: #c49b63;
+  }
+  .text_service {
+    float: left;
+    width: 80%;
+    padding-left: 15px;
+    h3 {
+      margin-top: 0px;
+      margin-bottom: 5px;
+      font-size: 15px;
+      font-weight: 600;
+      color: #fff;
+    }
+    p {
+      font-size: 15px;
+      color: #828282;
+    }
+  }
+}

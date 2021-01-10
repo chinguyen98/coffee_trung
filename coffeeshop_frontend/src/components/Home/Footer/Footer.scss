@@ -1,0 +1,58 @@
+/*FOOTER*/
+.footer-detail {
+  background-color: #141415;
+  padding: 3rem 15px;
+}
+.footer-detail h2 {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.footer-detail p {
+  color: #8b8b96;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.footer__news p i {
+  color: #ff4f81;
+  margin-right: 10px;
+}
+.footer__contact i {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 15px;
+  color: white;
+  border: 1px solid #4b4b50;
+}
+.footer__contact p span {
+  margin-left: 10px;
+}
+
+.footer__form h2 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.footer__form input {
+  height: 40px;
+  width: 70%;
+}
+.btn-footer-submit {
+  background-color: black;
+  border-radius: 0px;
+  height: 40px;
+  margin-top: -3px;
+  cursor: pointer;
+  width: 25%;
+}
+.btn-footer-submit:hover {
+  background-color: #0f0f10;
+}
+.copy-right {
+  background-color: #0f0f10;
+}
+.copy-right p span {
+  color: #ffffff;
+}

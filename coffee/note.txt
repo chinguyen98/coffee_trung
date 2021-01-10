@@ -1,0 +1,27 @@
+composer update
+xong chạy lệnh composer dump-autoload ,
+xóa file storage trong public , xong chạy lại lệnh
+php artisan storage:link
+//chạy lệnh nha
+
+php artisan db:seed
+
+16/11/2020 Thuỷ update
+Category
+    + Done Category
+Product
+    +Tạo storage: php artisan storage:link
+    + Done Product. Lưu ý nha nếu thêm hoặc sửa không được thì chỉnh lại kiểu dữ liệu trong dtb á khoá chính nó ghi là int(20) nhưng khoá ngoaại nó ghi int(11)
+
+17/11/2020 Thuỷ update
+Order
+    +Chỉnh lại mấy cột ghi sai created_at với updated_at
+    +Done order gồm cập nhật trạng thái + xoá đơn hàng + xem chi tiết đơn hàng.
+Order details
+    + Done order details chỉ có chức năng xoá
+
+/// thêm cột
+ALTER TABLE `customers` ADD `password` VARCHAR(255) NOT NULL AFTER `email`;
+//thêm dữ liệu test
+// thêm dư
+INSERT INTO `customers` (`id`, `ten`, `email`, `password`, `diachi`, `sdt`, `ghichu`, `trangthai`, `remember_token`, `created_at`, `updated_at`) VALUES ('1', 'áđá', 'test@gmail.com', '$2y$10$6RHVjd.hOHccdW2m88w7KuRVg7ZeaHw1mBLhw7wdshgWG0xr4.t5m', 'áđâsd', 'áđá', 'áđá', '1', 'sadsad', '2020-11-30 20:58:43', '2020-11-30 20:58:43');
